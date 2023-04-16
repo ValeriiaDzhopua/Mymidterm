@@ -1,0 +1,58 @@
+---
+title: "Bank Marketing"
+author: 
+  - Dzhopua, Valeriia[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 20080879, [Midterm](https://github.com/ValeriiaDzhopua/Midterm )
+
+# Important Information About Midterm
+
+\colorbox{BurntOrange}
+[Midterm](ttps://github.com/ValeriiaDzhopua/Mymidterm.git)
+
+# Introduction
+
+Marketing originated in the manufacturing sector and for a long time did not find appropriate application in the activities of banks. However, this state of affairs could not be long-term, and banks, due to sharply increasing competition, had to turn to the experience of business and industrial companies, which had long been oriented towards marketing in their activities. The specificity of the functioning of credit institutions gives marketing in banks a number of characteristic features that separated it into an independent branch of marketing as a science.
+The main objective of bank financial marketing is to reverse the processes taking place in the capital market, i.e. directly in the sphere of credit and financial institutions, especially in the banking sector, and in the securities market, including the primary and secondary market (stock exchange, market).
+As a rule, the bank based on the analysis of the financial market, its changes volume, study of consumer habits, consideration of sociological and psychological features of facilities in the territory makes up a program to attract funds (deposits, deposits), issue loans and make payments and cash services. In this sense, the Bank is required to define the general principles of competition strategies and specific marketing strategies.
+However,Michel J. Baker’s article Baker (1993) is one of the criticizing scientific works on bank marketing implementation. The article presents the widespread dissatisfaction with the commercial banks’ services, showing how unsuccessful bank marketing is. “There is a clear lack of marketing in both principle and practice in the UK banking system and one can only conclude that “Bank Marketing” is more myth than reality.” says Michel Baker.
+I decided to choose this data set because I ,as a student of Politics and Economics department, study the market systems, and I think marketing aspect of the system has its own interesting elements, tools , and their effects. The data set was found on [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#). It gives you information about a marketing campaign of a financial institution in which you will have to analyze in order to improve future marketing campaigns for the bank. You can such variables as age, job, marital, education, default, balance, housing, loan, contact, and day.
+
+## Literature Review
+
+Article @moro2014data talks about “how optimizing targeting for telemarketing is a key issue, under a growing pressure to increase profits and reduce costs.”The data is collected from Portuguese retail bank from 2008 to 2013 and offer data mining (DM) approach to predict the success of telemarketing calls for the sale of bank long-term deposits. In article @lau2004database the author presents the example of Hong Kong, the ‘mirror of the future’ to look at the overall view on cross selling in Hong Kong. @dibb2001banks article case study evidence of progress towards the segment of one and identifies the barriers that are impeding progress. As the technologies advance, the marketers have more abilities to capture and manipulate personal data of consumers. @martens2011pseudo is a designed science paper presenting how a method for targeting consumers based on a ‘pseudo-social network’ (PSN): consumers are linked if they transfer money to the same entities. So the marketers can target the ones who are strongly connected to a key individual. This paper @nobibon2011optimization presents an optimization model for the selection of sets of clients that will receive an offer for one or more products during a promotion campaign. @setiono2003techniques article explains how the algorithms work and their types according to the problems they solve.
+
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
